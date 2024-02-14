@@ -1,0 +1,132 @@
+[
+    [
+        {
+            "start": 22,
+            "end": 25,
+            "label": [
+                {
+                    "label": "INF",
+                    "proper_name": "GR5",
+                    "syntagme": ""
+                }
+            ],
+            "text": "GR5"
+        }
+    ],
+    [
+        {
+            "start": 42,
+            "end": 67,
+            "label": [
+                {
+                    "label": "INF",
+                    "proper_name": "Tin\u00e9e",
+                    "syntagme": "pont routier sur la"
+                }
+            ],
+            "text": "pont routier sur la Tin\u00e9e"
+        },
+        {
+            "start": 86,
+            "end": 120,
+            "label": [
+                {
+                    "label": "GPE",
+                    "proper_name": "Tin\u00e9e",
+                    "syntagme": "village de Saint Sauveur sur"
+                }
+            ],
+            "text": "village de Saint Sauveur sur Tin\u00e9e"
+        }
+    ],
+    [
+        {
+            "start": 31,
+            "end": 42,
+            "label": [
+                {
+                    "label": "INF",
+                    "proper_name": "D2205",
+                    "syntagme": "route"
+                }
+            ],
+            "text": "route D2205"
+        }
+    ],
+    [
+        {
+            "start": 106,
+            "end": 126,
+            "label": [
+                {
+                    "label": "GEO",
+                    "proper_name": "Romarinier",
+                    "syntagme": "vallon du"
+                }
+            ],
+            "text": "vallon du Romarinier"
+        },
+        {
+            "start": 146,
+            "end": 166,
+            "label": [
+                {
+                    "label": "GEO",
+                    "proper_name": "Roubinastre",
+                    "syntagme": "ravin de"
+                }
+            ],
+            "text": "ravin de Roubinastre"
+        },
+        {
+            "start": 211,
+            "end": 229,
+            "label": [
+                {
+                    "label": "GPE",
+                    "proper_name": "Rimplas",
+                    "syntagme": "village de"
+                }
+            ],
+            "text": "village de Rimplas"
+        },
+        {
+            "start": 374,
+            "end": 379,
+            "label": [
+                {
+                    "label": "INF",
+                    "proper_name": "D2565",
+                    "syntagme": ""
+                }
+            ],
+            "text": "D2565"
+        },
+        {
+            "start": 444,
+            "end": 455,
+            "label": [
+                {
+                    "label": "GEO",
+                    "proper_name": "Gros",
+                    "syntagme": "Vallon"
+                }
+            ],
+            "text": "Vallon Gros"
+        }
+    ],
+    [
+        {
+            "start": 73,
+            "end": 78,
+            "label": [
+                {
+                    "label": "INF",
+                    "proper_name": "D2565",
+                    "syntagme": ""
+                }
+            ],
+            "text": "D2565"
+        }
+    ]
+]
