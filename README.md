@@ -12,6 +12,8 @@ PyUnitex is a python bindings for the [Unitex](https://unitexgramlab.org/fr) C++
 
 4. Install the package `pip install .`
 
+5. Run tests: `pytest`
+
 ## Apply Unitex CasSys as a package
 
 [Example](https://github.com/konverner/py-unitex/blob/master/demo.ipynb)
