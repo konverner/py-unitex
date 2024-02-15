@@ -2,8 +2,8 @@ import logging
 import argparse
 import json
 
-from src.unitex.unitex import Unitex
-from src.unitex.conf import UNITEX_EXECUTABLE, UNITEX_PATH
+from src.py_unitex.unitex import Unitex
+from src.py_unitex.conf import UNITEX_EXECUTABLE, UNITEX_PATH
 
 
 def init_parser():

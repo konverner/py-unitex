@@ -1,7 +1,4 @@
-import sys
-sys.path.append('.')
-
-from src.unitex.utils import fix_span
+from py_unitex.utils import fix_span
 
 
 def test_fix_span():

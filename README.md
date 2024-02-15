@@ -10,11 +10,28 @@ PyUnitex is a python bindings for the [Unitex](https://unitexgramlab.org/fr) C++
 
 3. Set paths to installed Unitex files in [src/unitex/conf.py](https://github.com/konverner/py-unitex/blob/master/src/unitex/conf.py)
 
-## Apply CasSys algorithm
+4. Install the package `pip install .`
+
+## Apply Unitex CasSys as a package
+
+Example:
+
+```Python
+from py_unitex.unitex import Unitex
+
+
+unitex = Unitex(lang="French")
+
+text = "La route D94 longe la rivière des Aigues."
+spans = unitex.get_spans(text, cascade_name="loc.csc")
+print(spans)
+```
+
+## Apply Unitex CasSys as a script
 
 To apply a cascade, use `main.py` script:
 
-```
+```bash
 python main.py --input_file "input/example.csv" --output_file "input/example_spans.json" --cascade_name "loc.csc" --lang "French"
 ```
 

@@ -1,7 +1,4 @@
-import sys
-sys.path.append('./src')
-
-from unitex import Unitex, ProperNameParser
+from py_unitex.unitex import Unitex, ProperNameParser
 
 
 def test_cassys():

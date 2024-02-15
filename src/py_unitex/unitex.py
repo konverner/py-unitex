@@ -4,6 +4,8 @@ import subprocess
 from subprocess import DEVNULL, STDOUT, check_call
 import xml.etree.ElementTree as ET
 
+from py_unitex.conf import UNITEX_EXECUTABLE, UNITEX_PATH
+
 
 class Unitex:
     def __init__(
@@ -17,12 +19,19 @@ class Unitex:
         self.version = version
         self.lang = lang
         self.parser = ProperNameParser()
-        self.install_path = install_path
-        self.install_path_app = install_path_app+"/UnitexToolLogger"
+        if install_path is None:
+            self.install_path = UNITEX_PATH
+        else:
+            self.install_path = install_path
+
+        if install_path_app is None:
+            self.install_path_app = UNITEX_EXECUTABLE
+        else:
+            self.install_path_app = install_path_app+"/UnitexToolLogger"
 
         self.dic_path = f"{self.install_path}/{self.lang}/Dela/LOC.dic " + \
-                        "C:\\Users\konst\AppData\Local\\Unitex-GramLab\French\Dela\Dela_fr.bin " + \
-                        "C:\\Users\konst\AppData\Local\\Unitex-GramLab\French\Dela\motsGramf-.bin"
+                        f"{self.install_path}/{self.lang}/Dela/Dela_fr.bin " + \
+                        f"{self.install_path}/{self.lang}/Dela/motsGramf-.bin"
         self.graphs_path = f"{self.install_path}/{self.lang}/Graphs"
         self.corpus_path = f"{self.install_path}/{self.lang}/Corpus"
         self.verbose = verbose
