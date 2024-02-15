@@ -14,7 +14,7 @@ PyUnitex is a python bindings for the [Unitex](https://unitexgramlab.org/fr) C++
 
 ## Apply Unitex CasSys as a package
 
-Example:
+[Example](https://github.com/konverner/py-unitex/blob/master/demo.ipynb)
 
 ```Python
 from py_unitex.unitex import Unitex
